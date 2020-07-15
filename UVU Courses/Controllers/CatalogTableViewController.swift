@@ -14,7 +14,7 @@ class CatalogTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(departments.count)
         
     }
 
