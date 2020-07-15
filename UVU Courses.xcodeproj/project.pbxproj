@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		FF1A4AA324BF3B2B0031331A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */; };
 		FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */; };
-		FF1A4AA724BF3B2B0031331A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA624BF3B2B0031331A /* FirstViewController.swift */; };
-		FF1A4AA924BF3B2B0031331A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA824BF3B2B0031331A /* SecondViewController.swift */; };
 		FF1A4AAC24BF3B2C0031331A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A4AAA24BF3B2C0031331A /* Main.storyboard */; };
 		FF1A4AAE24BF3B310031331A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1A4AAD24BF3B310031331A /* Assets.xcassets */; };
 		FF1A4AB124BF3B310031331A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A4AAF24BF3B310031331A /* LaunchScreen.storyboard */; };
 		FF1A4ABC24BF3B310031331A /* UVU_CoursesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ABB24BF3B310031331A /* UVU_CoursesTests.swift */; };
 		FF1A4AC724BF3B310031331A /* UVU_CoursesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AC624BF3B310031331A /* UVU_CoursesUITests.swift */; };
+		FF1A4AD724BF3C1B0031331A /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AD624BF3C1B0031331A /* SearchTableViewController.swift */; };
+		FF1A4AD924BF3C480031331A /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AD824BF3C480031331A /* MyProfileViewController.swift */; };
+		FF1A4ADC24BF3E850031331A /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */; };
+		FF1A4ADE24BF449C0031331A /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ADD24BF449C0031331A /* Courses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		FF1A4A9F24BF3B2B0031331A /* UVU Courses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UVU Courses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF1A4AA624BF3B2B0031331A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FF1A4AA824BF3B2B0031331A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FF1A4AAB24BF3B2C0031331A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF1A4AAD24BF3B310031331A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1A4AB024BF3B310031331A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		FF1A4AC224BF3B310031331A /* UVU CoursesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UVU CoursesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A4AC624BF3B310031331A /* UVU_CoursesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVU_CoursesUITests.swift; sourceTree = "<group>"; };
 		FF1A4AC824BF3B310031331A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1A4AD624BF3C1B0031331A /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		FF1A4AD824BF3C480031331A /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
+		FF1A4ADD24BF449C0031331A /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,12 @@
 			children = (
 				FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */,
 				FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */,
-				FF1A4AA624BF3B2B0031331A /* FirstViewController.swift */,
-				FF1A4AA824BF3B2B0031331A /* SecondViewController.swift */,
 				FF1A4AAA24BF3B2C0031331A /* Main.storyboard */,
 				FF1A4AAD24BF3B310031331A /* Assets.xcassets */,
 				FF1A4AAF24BF3B310031331A /* LaunchScreen.storyboard */,
 				FF1A4AB224BF3B310031331A /* Info.plist */,
+				FF1A4ADA24BF3E0C0031331A /* Controllers */,
+				FF1A4ADD24BF449C0031331A /* Courses.swift */,
 			);
 			path = "UVU Courses";
 			sourceTree = "<group>";
@@ -129,6 +133,16 @@
 				FF1A4AC824BF3B310031331A /* Info.plist */,
 			);
 			path = "UVU CoursesUITests";
+			sourceTree = "<group>";
+		};
+		FF1A4ADA24BF3E0C0031331A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A4AD624BF3C1B0031331A /* SearchTableViewController.swift */,
+				FF1A4AD824BF3C480031331A /* MyProfileViewController.swift */,
+				FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF1A4AA924BF3B2B0031331A /* SecondViewController.swift in Sources */,
-				FF1A4AA724BF3B2B0031331A /* FirstViewController.swift in Sources */,
+				FF1A4ADC24BF3E850031331A /* CatalogTableViewController.swift in Sources */,
+				FF1A4AD924BF3C480031331A /* MyProfileViewController.swift in Sources */,
+				FF1A4ADE24BF449C0031331A /* Courses.swift in Sources */,
 				FF1A4AA324BF3B2B0031331A /* AppDelegate.swift in Sources */,
+				FF1A4AD724BF3C1B0031331A /* SearchTableViewController.swift in Sources */,
 				FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
