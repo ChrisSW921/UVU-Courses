@@ -19,6 +19,7 @@
 		FF1A4ADC24BF3E850031331A /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */; };
 		FF1A4ADE24BF449C0031331A /* Courses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ADD24BF449C0031331A /* Courses.swift */; };
 		FF1A4AE024C0956D0031331A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4ADF24C0956D0031331A /* test.swift */; };
+		FF1A4AE224C0C5420031331A /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4ADD24BF449C0031331A /* Courses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Courses.swift; sourceTree = "<group>"; };
 		FF1A4ADF24C0956D0031331A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				FF1A4AD824BF3C480031331A /* MyProfileViewController.swift */,
 				FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */,
 				FF1A4ADF24C0956D0031331A /* test.swift */,
+				FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				FF1A4AD924BF3C480031331A /* MyProfileViewController.swift in Sources */,
 				FF1A4ADE24BF449C0031331A /* Courses.swift in Sources */,
 				FF1A4AA324BF3B2B0031331A /* AppDelegate.swift in Sources */,
+				FF1A4AE224C0C5420031331A /* CoursesTableViewController.swift in Sources */,
 				FF1A4AD724BF3C1B0031331A /* SearchTableViewController.swift in Sources */,
 				FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */,
 				FF1A4AE024C0956D0031331A /* test.swift in Sources */,
