@@ -35,6 +35,9 @@ class CatalogTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Category", for: indexPath)
         cell.textLabel?.text = departments[indexPath.row]
         cell.accessoryType = .disclosureIndicator
+        cell.textLabel!.numberOfLines = 0
+        cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 80).isActive = true
+        
 
         return cell
     }

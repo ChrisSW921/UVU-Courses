@@ -16,9 +16,6 @@ class CoursesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Here")
-        print(keys)
-        
     }
 
     // MARK: - Table view data source
@@ -34,6 +31,7 @@ class CoursesTableViewController: UITableViewController {
         cell.textLabel!.numberOfLines = 0
         cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 80).isActive = true
         cell.textLabel!.text = "\(keys[indexPath.row])  \(values[indexPath.row])"
+         cell.accessoryType = .disclosureIndicator
         return cell
     }
 
