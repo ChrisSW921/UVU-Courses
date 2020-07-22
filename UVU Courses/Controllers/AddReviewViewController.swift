@@ -14,6 +14,25 @@ class AddReviewViewController: UIViewController {
     
     @IBOutlet weak var datePicker: UIPickerView!
     
+    @IBOutlet weak var Professor: UITextView!
+    
+    @IBOutlet weak var Books: UITextView!
+    
+    @IBOutlet weak var Homework: UITextView!
+    
+    @IBOutlet weak var Exams: UITextView!
+    
+    @IBOutlet weak var Attendance: UISegmentedControl!
+    
+    @IBAction func Save(_ sender: UIButton) {
+        print("Saved review")
+    }
+    
+    
+    
+    
+    
+    
     var currentCourse: String = ""
     
     

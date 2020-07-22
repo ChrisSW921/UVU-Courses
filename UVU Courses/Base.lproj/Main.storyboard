@@ -259,6 +259,9 @@
                                                 <rect key="frame" x="163" y="1131" width="37" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="SAVE"/>
+                                                <connections>
+                                                    <action selector="Save:" destination="0uo-oh-7De" eventType="touchUpInside" id="C0c-yk-hej"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COURSE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZk-yw-SZg">
                                                 <rect key="frame" x="8" y="80" width="406" height="20.5"/>
@@ -298,6 +301,11 @@
                     <navigationItem key="navigationItem" id="PGp-2c-9z8"/>
                     <size key="freeformSize" width="414" height="1500"/>
                     <connections>
+                        <outlet property="Attendance" destination="93v-AT-pqv" id="OBs-L1-zR5"/>
+                        <outlet property="Books" destination="5dV-LQ-TWS" id="yTc-QL-3k3"/>
+                        <outlet property="Exams" destination="atS-Vf-qkR" id="apI-9F-Un9"/>
+                        <outlet property="Homework" destination="R9a-RG-KGy" id="xxI-dn-Jv0"/>
+                        <outlet property="Professor" destination="1VZ-QX-lxC" id="dJF-1r-eeM"/>
                         <outlet property="courseTitle" destination="LZk-yw-SZg" id="94i-N7-MDG"/>
                         <outlet property="datePicker" destination="v6S-14-SDi" id="6nz-bR-Xhs"/>
                     </connections>
@@ -331,7 +339,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" id="Cct-fR-Lf1">
-                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
