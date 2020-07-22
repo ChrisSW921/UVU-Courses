@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863EA3E672275F8F560F5B8F /* Pods_UVU_Courses.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3AA75F00E4B94FB17AA1A9 /* Pods_UVU_Courses.framework */; };
+		DCB88F2D74B9270138C45587 /* Pods_UVU_CoursesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A540B3997F088FD17B7E6B /* Pods_UVU_CoursesTests.framework */; };
+		E3BC2698F268FCC92B33FE43 /* Pods_UVU_Courses_UVU_CoursesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC205C4BB80264BB9BE0665 /* Pods_UVU_Courses_UVU_CoursesUITests.framework */; };
 		FF1A4AA324BF3B2B0031331A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */; };
 		FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */; };
 		FF1A4AAC24BF3B2C0031331A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A4AAA24BF3B2C0031331A /* Main.storyboard */; };
@@ -22,6 +25,7 @@
 		FF1A4AE224C0C5420031331A /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */; };
 		FF1A4AE424C212730031331A /* CourseReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */; };
 		FF1A4AE624C214170031331A /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE524C214170031331A /* AddReviewViewController.swift */; };
+		FFFBE0C624C87E0500B0CB17 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFBE0C524C87E0500B0CB17 /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC205C4BB80264BB9BE0665 /* Pods_UVU_Courses_UVU_CoursesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVU_Courses_UVU_CoursesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3AA75F00E4B94FB17AA1A9 /* Pods_UVU_Courses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVU_Courses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426BF517BC4396733E21940C /* Pods-UVU Courses-UVU CoursesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU Courses-UVU CoursesUITests.release.xcconfig"; path = "Target Support Files/Pods-UVU Courses-UVU CoursesUITests/Pods-UVU Courses-UVU CoursesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC4123D6E95D8BA67309AE9 /* Pods-UVU Courses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU Courses.release.xcconfig"; path = "Target Support Files/Pods-UVU Courses/Pods-UVU Courses.release.xcconfig"; sourceTree = "<group>"; };
+		80B81D86725A1ADC0A685BD5 /* Pods-UVU CoursesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU CoursesTests.release.xcconfig"; path = "Target Support Files/Pods-UVU CoursesTests/Pods-UVU CoursesTests.release.xcconfig"; sourceTree = "<group>"; };
+		A556C4B006A4D24405F0CB9E /* Pods-UVU CoursesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU CoursesTests.debug.xcconfig"; path = "Target Support Files/Pods-UVU CoursesTests/Pods-UVU CoursesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B108341AF1F4619E30115509 /* Pods-UVU Courses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU Courses.debug.xcconfig"; path = "Target Support Files/Pods-UVU Courses/Pods-UVU Courses.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B4598B109138F254354A8F /* Pods-UVU Courses-UVU CoursesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UVU Courses-UVU CoursesUITests.debug.xcconfig"; path = "Target Support Files/Pods-UVU Courses-UVU CoursesUITests/Pods-UVU Courses-UVU CoursesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A540B3997F088FD17B7E6B /* Pods_UVU_CoursesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UVU_CoursesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A4A9F24BF3B2B0031331A /* UVU Courses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UVU Courses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +76,7 @@
 		FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReviewsTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4AE524C214170031331A /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		FFFBE0C524C87E0500B0CB17 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863EA3E672275F8F560F5B8F /* Pods_UVU_Courses.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB88F2D74B9270138C45587 /* Pods_UVU_CoursesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BC2698F268FCC92B33FE43 /* Pods_UVU_Courses_UVU_CoursesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E2E2944841F49B38D6A13E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C3AA75F00E4B94FB17AA1A9 /* Pods_UVU_Courses.framework */,
+				0FC205C4BB80264BB9BE0665 /* Pods_UVU_Courses_UVU_CoursesUITests.framework */,
+				D1A540B3997F088FD17B7E6B /* Pods_UVU_CoursesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		875302596A7257E059894202 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B108341AF1F4619E30115509 /* Pods-UVU Courses.debug.xcconfig */,
+				7BC4123D6E95D8BA67309AE9 /* Pods-UVU Courses.release.xcconfig */,
+				C0B4598B109138F254354A8F /* Pods-UVU Courses-UVU CoursesUITests.debug.xcconfig */,
+				426BF517BC4396733E21940C /* Pods-UVU Courses-UVU CoursesUITests.release.xcconfig */,
+				A556C4B006A4D24405F0CB9E /* Pods-UVU CoursesTests.debug.xcconfig */,
+				80B81D86725A1ADC0A685BD5 /* Pods-UVU CoursesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF1A4A9624BF3B2B0031331A = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +137,8 @@
 				FF1A4ABA24BF3B310031331A /* UVU CoursesTests */,
 				FF1A4AC524BF3B310031331A /* UVU CoursesUITests */,
 				FF1A4AA024BF3B2B0031331A /* Products */,
+				875302596A7257E059894202 /* Pods */,
+				38E2E2944841F49B38D6A13E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +162,7 @@
 				FF1A4AAF24BF3B310031331A /* LaunchScreen.storyboard */,
 				FF1A4AB224BF3B310031331A /* Info.plist */,
 				FF1A4ADA24BF3E0C0031331A /* Controllers */,
-				FF1A4ADD24BF449C0031331A /* Courses.swift */,
+				FFFBE0C424C87DF000B0CB17 /* Models */,
 			);
 			path = "UVU Courses";
 			sourceTree = "<group>";
@@ -157,6 +199,15 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FFFBE0C424C87DF000B0CB17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A4ADD24BF449C0031331A /* Courses.swift */,
+				FFFBE0C524C87E0500B0CB17 /* Review.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF1A4ACB24BF3B310031331A /* Build configuration list for PBXNativeTarget "UVU Courses" */;
 			buildPhases = (
+				F3CD22AA27004FD5A67F1D6E /* [CP] Check Pods Manifest.lock */,
 				FF1A4A9B24BF3B2B0031331A /* Sources */,
 				FF1A4A9C24BF3B2B0031331A /* Frameworks */,
 				FF1A4A9D24BF3B2B0031331A /* Resources */,
+				D361FCEEAFD730D27A1E7770 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF1A4ACE24BF3B310031331A /* Build configuration list for PBXNativeTarget "UVU CoursesTests" */;
 			buildPhases = (
+				C3A052D3CE0BFCDA8CC77DE7 /* [CP] Check Pods Manifest.lock */,
 				FF1A4AB324BF3B310031331A /* Sources */,
 				FF1A4AB424BF3B310031331A /* Frameworks */,
 				FF1A4AB524BF3B310031331A /* Resources */,
@@ -199,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF1A4AD124BF3B310031331A /* Build configuration list for PBXNativeTarget "UVU CoursesUITests" */;
 			buildPhases = (
+				CF44D22D882F251892878233 /* [CP] Check Pods Manifest.lock */,
 				FF1A4ABE24BF3B310031331A /* Sources */,
 				FF1A4ABF24BF3B310031331A /* Frameworks */,
 				FF1A4AC024BF3B310031331A /* Resources */,
+				8E220B7C52881B8F40156ADF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,6 +339,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E220B7C52881B8F40156ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UVU Courses-UVU CoursesUITests/Pods-UVU Courses-UVU CoursesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UVU Courses-UVU CoursesUITests/Pods-UVU Courses-UVU CoursesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UVU Courses-UVU CoursesUITests/Pods-UVU Courses-UVU CoursesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A052D3CE0BFCDA8CC77DE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UVU CoursesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF44D22D882F251892878233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UVU Courses-UVU CoursesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D361FCEEAFD730D27A1E7770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UVU Courses/Pods-UVU Courses-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UVU Courses/Pods-UVU Courses-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UVU Courses/Pods-UVU Courses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CD22AA27004FD5A67F1D6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UVU Courses-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF1A4A9B24BF3B2B0031331A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,6 +453,7 @@
 				FF1A4ADE24BF449C0031331A /* Courses.swift in Sources */,
 				FF1A4AA324BF3B2B0031331A /* AppDelegate.swift in Sources */,
 				FF1A4AE224C0C5420031331A /* CoursesTableViewController.swift in Sources */,
+				FFFBE0C624C87E0500B0CB17 /* Review.swift in Sources */,
 				FF1A4AD724BF3C1B0031331A /* SearchTableViewController.swift in Sources */,
 				FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */,
 				FF1A4AE624C214170031331A /* AddReviewViewController.swift in Sources */,
@@ -468,6 +628,7 @@
 		};
 		FF1A4ACC24BF3B310031331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B108341AF1F4619E30115509 /* Pods-UVU Courses.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -485,6 +646,7 @@
 		};
 		FF1A4ACD24BF3B310031331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC4123D6E95D8BA67309AE9 /* Pods-UVU Courses.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -502,6 +664,7 @@
 		};
 		FF1A4ACF24BF3B310031331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A556C4B006A4D24405F0CB9E /* Pods-UVU CoursesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +686,7 @@
 		};
 		FF1A4AD024BF3B310031331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B81D86725A1ADC0A685BD5 /* Pods-UVU CoursesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +708,7 @@
 		};
 		FF1A4AD224BF3B310031331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B4598B109138F254354A8F /* Pods-UVU Courses-UVU CoursesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +728,7 @@
 		};
 		FF1A4AD324BF3B310031331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426BF517BC4396733E21940C /* Pods-UVU Courses-UVU CoursesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
