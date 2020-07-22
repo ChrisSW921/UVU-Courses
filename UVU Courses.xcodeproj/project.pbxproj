@@ -26,6 +26,7 @@
 		FF1A4AE424C212730031331A /* CourseReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */; };
 		FF1A4AE624C214170031331A /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE524C214170031331A /* AddReviewViewController.swift */; };
 		FFFBE0C624C87E0500B0CB17 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFBE0C524C87E0500B0CB17 /* Review.swift */; };
+		FFFBE0C824C8825100B0CB17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFFBE0C724C8825000B0CB17 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReviewsTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4AE524C214170031331A /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
 		FFFBE0C524C87E0500B0CB17 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		FFFBE0C724C8825000B0CB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FF1A4AA224BF3B2B0031331A /* AppDelegate.swift */,
+				FFFBE0C724C8825000B0CB17 /* GoogleService-Info.plist */,
 				FF1A4AA424BF3B2B0031331A /* SceneDelegate.swift */,
 				FF1A4AAA24BF3B2C0031331A /* Main.storyboard */,
 				FF1A4AAD24BF3B310031331A /* Assets.xcassets */,
@@ -191,7 +194,6 @@
 				FF1A4AD624BF3C1B0031331A /* SearchTableViewController.swift */,
 				FF1A4AD824BF3C480031331A /* MyProfileViewController.swift */,
 				FF1A4ADB24BF3E850031331A /* CatalogTableViewController.swift */,
-				FF1A4ADF24C0956D0031331A /* test.swift */,
 				FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */,
 				FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */,
 				FF1A4AE524C214170031331A /* AddReviewViewController.swift */,
@@ -202,6 +204,7 @@
 		FFFBE0C424C87DF000B0CB17 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FF1A4ADF24C0956D0031331A /* test.swift */,
 				FF1A4ADD24BF449C0031331A /* Courses.swift */,
 				FFFBE0C524C87E0500B0CB17 /* Review.swift */,
 			);
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1A4AB124BF3B310031331A /* LaunchScreen.storyboard in Resources */,
+				FFFBE0C824C8825100B0CB17 /* GoogleService-Info.plist in Resources */,
 				FF1A4AAE24BF3B310031331A /* Assets.xcassets in Resources */,
 				FF1A4AAC24BF3B2C0031331A /* Main.storyboard in Resources */,
 			);

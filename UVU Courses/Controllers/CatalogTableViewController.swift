@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Firebase
 
 class CatalogTableViewController: UITableViewController {
+    
+    let db = Firestore.firestore()
     
     let categories = Courses()
     
@@ -21,6 +24,11 @@ class CatalogTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        db.collection("Reviews").document("TEST").setData([
+            "name": "Los Angeles",
+            "state": "CA",
+            "country": "USA"
+        ])
     }
 
     // MARK: - Table view data source
