@@ -10,12 +10,19 @@ import UIKit
 
 class AddReviewViewController: UIViewController {
 
+    @IBOutlet weak var courseTitle: UILabel!
+    
     @IBOutlet weak var datePicker: UIPickerView!
+    
+    var currentCourse: String = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         datePicker.delegate = self
         datePicker.dataSource = self
+        courseTitle.text = currentCourse
     }
     
 
