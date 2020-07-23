@@ -30,8 +30,30 @@ class AddReviewViewController: UIViewController {
     
     
     @IBAction func Save(_ sender: UIButton) {
-    
         
+        let title = Attendance.titleForSegment(at: Attendance.selectedSegmentIndex)
+        db.collection("Reviews").addDocument(data: [
+            "Course": courseTitle.text!,
+            "Date": dateTaken,
+            "Professor": Professor.text!,
+            "Books": Books.text!,
+            "Homework": Homework.text!,
+            "Exams": Exams.text!,
+            "Attendance": title!
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                let alert  = UIAlertController(title: "Review Saved!", message: "", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in self.Professor.text = "Write here..."
+                    self.Books.text = "Write here..."
+                    self.Homework.text = "Write here..."
+                    self.Exams.text = "Write here..."
+                }))
+                self.present(alert, animated: true, completion: nil)
+            }
+        }
+
     }
     
     var dateTaken: String = ""

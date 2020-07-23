@@ -251,7 +251,7 @@
                                                 <rect key="frame" x="8" y="1033" width="131" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <segments>
-                                                    <segment title="First"/>
+                                                    <segment title="YES"/>
                                                     <segment title="NO"/>
                                                 </segments>
                                             </segmentedControl>
