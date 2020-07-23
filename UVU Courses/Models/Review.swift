@@ -17,4 +17,5 @@ struct Review {
     var Exams: String = ""
     var Attendance: Bool = true
     var User: String = ""
+    var ID: String = ""
 }

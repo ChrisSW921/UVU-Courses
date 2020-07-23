@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="Ziw-7a-gK8" id="lGP-us-5wn"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Subjects" id="zdP-am-ocQ"/>
+                    <tabBarItem key="tabBarItem" title="Subjects" image="book" catalog="system" id="zdP-am-ocQ"/>
                     <navigationItem key="navigationItem" id="ESm-09-4c5"/>
                     <connections>
                         <segue destination="Z5h-nK-Yx4" kind="show" identifier="GoToCourses" id="6OT-gJ-Zo5"/>
@@ -324,7 +324,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lcU-q1-iZ1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Profile" image="second" id="3SN-DO-a9S"/>
+                    <tabBarItem key="tabBarItem" title="My Profile" image="person" catalog="system" id="3SN-DO-a9S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQ3-5v-D3e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -393,8 +393,9 @@
         <segue reference="WFV-9p-KF0"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="book" catalog="system" width="128" height="101"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>
