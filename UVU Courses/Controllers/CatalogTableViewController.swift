@@ -24,11 +24,8 @@ class CatalogTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        db.collection("Reviews").document("TEST2").setData([
-            "name": "Los Angeles",
-            "state": "CA",
-            "country": "USA"
-        ])
+        let ID = UserDefaults.standard.string(forKey: "ID")
+        print(ID)
     }
 
     // MARK: - Table view data source

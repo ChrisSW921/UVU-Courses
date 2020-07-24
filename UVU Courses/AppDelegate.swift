@@ -11,10 +11,19 @@ import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if launchedBefore == false  {
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+            UserDefaults.standard.set(Int.random(in: 5000000...10000000), forKey: "ID")
+
+            
+        } else {
+            let ID = UserDefaults.standard.string(forKey: "ID")
+            print(ID)
+        }
             FirebaseApp.configure()
         _ = Firestore.firestore()
             return true
