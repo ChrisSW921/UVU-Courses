@@ -30,7 +30,7 @@ class CoursesTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Course", for: indexPath)
         cell.textLabel!.numberOfLines = 0
         cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 80).isActive = true
-        cell.textLabel!.text = "\(keys[indexPath.row])  \(values[indexPath.row])"
+        cell.textLabel!.text = "\(keys[indexPath.row]) \(values[indexPath.row])"
          cell.accessoryType = .disclosureIndicator
         return cell
     }

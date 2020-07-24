@@ -351,9 +351,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="8gT-cR-fQm" kind="show" id="8fT-hT-WCU"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -364,6 +361,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="ju8-pV-tL2"/>
                     <connections>
                         <outlet property="SearchBar" destination="Cct-fR-Lf1" id="Yi8-Cg-drc"/>
+                        <segue destination="8gT-cR-fQm" kind="show" identifier="GoToReviews" id="JIX-AB-h5d"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bg5-RR-Ibp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -390,7 +388,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WFV-9p-KF0"/>
+        <segue reference="JIX-AB-h5d"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="101"/>

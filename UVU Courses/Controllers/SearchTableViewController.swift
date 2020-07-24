@@ -13,6 +13,7 @@ class SearchTableViewController: UITableViewController {
     
     @IBOutlet weak var SearchBar: UISearchBar!
     
+    var currentCourse: String = ""
     
     let courses = Courses()
     
@@ -47,6 +48,16 @@ class SearchTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        currentCourse = filteredCourses[indexPath.row]
+        performSegue(withIdentifier: "GoToReviews", sender: self)
+      }
+      
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           let destinationVC = segue.destination as! CourseReviewsTableViewController
+           destinationVC.currentCourse = currentCourse
+      }
 
    
 }
