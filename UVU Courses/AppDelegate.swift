@@ -17,8 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if launchedBefore == false  {
             UserDefaults.standard.set(true, forKey: "launchedBefore")
-            UserDefaults.standard.set(Int.random(in: 5000000...10000000), forKey: "ID")
-
+            UserDefaults.standard.set(Int.random(in: 500000000...1000000000), forKey: "ID")
             
         } else {
             let ID = UserDefaults.standard.string(forKey: "ID")

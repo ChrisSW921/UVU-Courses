@@ -32,6 +32,9 @@ class AddReviewViewController: UIViewController {
     @IBAction func Save(_ sender: UIButton) {
         
         let title = Attendance.titleForSegment(at: Attendance.selectedSegmentIndex)
+        
+        let ID = UserDefaults.standard.string(forKey: "ID")
+        
         db.collection("Reviews").addDocument(data: [
             "Course": courseTitle.text!,
             "Date": dateTaken,
@@ -39,7 +42,8 @@ class AddReviewViewController: UIViewController {
             "Books": Books.text!,
             "Homework": Homework.text!,
             "Exams": Exams.text!,
-            "Attendance": title!
+            "Attendance": title!,
+            "ID": ID!
         ]) { err in
             if let err = err {
                 print("Error adding document: \(err)")

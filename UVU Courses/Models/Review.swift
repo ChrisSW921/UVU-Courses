@@ -15,7 +15,7 @@ struct Review {
     var Books: String = ""
     var Homework: String = ""
     var Exams: String = ""
-    var Attendance: Bool = true
+    var Attendance: String = ""
     var User: String = ""
     var ID: String = ""
 }
