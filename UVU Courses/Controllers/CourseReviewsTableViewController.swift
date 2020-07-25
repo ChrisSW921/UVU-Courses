@@ -72,8 +72,8 @@ class CourseReviewsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Review", for: indexPath)
         cell.textLabel!.numberOfLines = 0
-        cell.textLabel!.text = Reviews[indexPath.row].Exams
-        cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 80).isActive = true
+        cell.textLabel!.text = "DATE TAKEN: \(Reviews[indexPath.row].DateTaken) \nPROFESSOR: \(Reviews[indexPath.row].Professor) \nBOOKS: \(Reviews[indexPath.row].Books) \nHOMEWORK: \(Reviews[indexPath.row].Homework) \nEXAMS: \(Reviews[indexPath.row].Exams) \nATTENDANCE: \(Reviews[indexPath.row].Attendance)"
+        //cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 200).isActive = true
 
         return cell
     }
