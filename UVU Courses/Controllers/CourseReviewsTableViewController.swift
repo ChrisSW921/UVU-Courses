@@ -33,7 +33,6 @@ class CourseReviewsTableViewController: UITableViewController {
                         for doc in snapshotDocuments {
                             let data = doc.data()
                             if let Name = data["Course"] as? String, let Date = data["Date"] as? String, let Prof = data["Professor"] as? String, let Books = data["Books"] as? String, let Homework = data["Homework"] as? String, let Exams = data["Exams"] as? String, let attendance = data["Attendance"] as? String, let id = data["ID"] as? String {
-                                print("Here now")
                                 var newReview = Review()
                                 newReview.CourseName = Name
                                 newReview.DateTaken = Date
@@ -61,7 +60,6 @@ class CourseReviewsTableViewController: UITableViewController {
                     }
                 }
             }
-        print("Im here")
         }
 
     // MARK: - Table view data source

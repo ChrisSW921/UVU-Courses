@@ -36,7 +36,7 @@ class CoursesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        currentCourse =  "\(keys[indexPath.row])  \(values[indexPath.row])"
+        currentCourse =  "\(keys[indexPath.row]) \(values[indexPath.row])"
         performSegue(withIdentifier: "GoToReviews", sender: self)
       }
       
