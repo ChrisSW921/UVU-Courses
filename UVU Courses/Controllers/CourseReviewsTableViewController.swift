@@ -11,6 +11,7 @@ import Firebase
 
 class CourseReviewsTableViewController: UITableViewController {
     
+   
     var currentCourse: String = ""
 
     var Reviews: [Review] = []
@@ -19,10 +20,23 @@ class CourseReviewsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadQuestions()
+        loadReviews()
     }
     
-    func loadQuestions() {
+    @IBAction func addButton(_ sender: Any) {
+        let ID = UserDefaults.standard.string(forKey: "ID")
+        var ids: [String] = []
+        for item in Reviews {
+            ids.append(item.ID)
+        }
+        
+        if !ids.contains(ID!) {
+            self.performSegue(withIdentifier: "addReview", sender: self)
+        }
+            
+        
+    }
+    func loadReviews() {
         db.collection("Reviews")
                 .addSnapshotListener { (querySnapshot, error) in
                 self.Reviews = []
@@ -78,10 +92,6 @@ class CourseReviewsTableViewController: UITableViewController {
         return cell
     }
 
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         
-            performSegue(withIdentifier: "addReview", sender: self)
-       }
        
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             let destinationVC = segue.destination as! AddReviewViewController
