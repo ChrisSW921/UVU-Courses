@@ -57,10 +57,8 @@ class AddReviewViewController: UIViewController {
                     print("Error adding document: \(err)")
                 } else {
                     let alert  = UIAlertController(title: "Review Saved!", message: "", preferredStyle: .alert)
-                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in self.Professor.text = "Write here..."
-                        self.Books.text = "Write here..."
-                        self.Homework.text = "Write here..."
-                        self.Exams.text = "Write here..."
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in 
+                        self.navigationController?.popViewController(animated: true)
                     }))
                     self.present(alert, animated: true, completion: nil)
                 }
