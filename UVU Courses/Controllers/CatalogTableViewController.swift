@@ -62,8 +62,6 @@ class CatalogTableViewController: UITableViewController {
         for num in category.values {
             class_numbers.append(num)
         }
-        classes.sort()
-        class_numbers.sort()
         destinationVC.keys = classes
         destinationVC.values = class_numbers
         

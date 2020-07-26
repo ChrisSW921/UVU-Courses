@@ -35,26 +35,35 @@ class AddReviewViewController: UIViewController {
         
         let ID = UserDefaults.standard.string(forKey: "ID")
         
-        db.collection("Reviews").addDocument(data: [
-            "Course": courseTitle.text!,
-            "Date": dateTaken,
-            "Professor": Professor.text!,
-            "Books": Books.text!,
-            "Homework": Homework.text!,
-            "Exams": Exams.text!,
-            "Attendance": title!,
-            "ID": ID!
-        ]) { err in
-            if let err = err {
-                print("Error adding document: \(err)")
-            } else {
-                let alert  = UIAlertController(title: "Review Saved!", message: "", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in self.Professor.text = "Write here..."
-                    self.Books.text = "Write here..."
-                    self.Homework.text = "Write here..."
-                    self.Exams.text = "Write here..."
-                }))
-                self.present(alert, animated: true, completion: nil)
+        let not_allowed = "Write here..."
+        
+        if Professor.text == not_allowed || Books.text == not_allowed || Homework.text == not_allowed || Exams.text == not_allowed {
+            let alert  = UIAlertController(title: "Please fill out all fields", message: "", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in
+            }))
+            self.present(alert, animated: true, completion: nil)
+        }else {
+            db.collection("Reviews").addDocument(data: [
+                "Course": courseTitle.text!,
+                "Date": dateTaken,
+                "Professor": Professor.text!,
+                "Books": Books.text!,
+                "Homework": Homework.text!,
+                "Exams": Exams.text!,
+                "Attendance": title!,
+                "ID": ID!
+            ]) { err in
+                if let err = err {
+                    print("Error adding document: \(err)")
+                } else {
+                    let alert  = UIAlertController(title: "Review Saved!", message: "", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {(alert: UIAlertAction) in self.Professor.text = "Write here..."
+                        self.Books.text = "Write here..."
+                        self.Homework.text = "Write here..."
+                        self.Exams.text = "Write here..."
+                    }))
+                    self.present(alert, animated: true, completion: nil)
+                }
             }
         }
 
