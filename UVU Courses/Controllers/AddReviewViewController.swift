@@ -80,6 +80,7 @@ class AddReviewViewController: UIViewController {
         datePicker.delegate = self
         datePicker.dataSource = self
         courseTitle.text = currentCourse
+        datePicker.setValue(UIColor.white, forKey: "textColor")
     }
     
 
