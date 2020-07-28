@@ -5,7 +5,7 @@ The app saves the data to google firebase server.
 HOME SCREEN
 
 
-![](Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
 
 
 
