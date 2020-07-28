@@ -20,13 +20,13 @@ TAB TWO, SEARCH FEATURE
 
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/SearchBar.imageset/SearchBar.png)
 
 
 ALL COURSES WITHIN SPECIFICED DEPARTMENT
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Allclassesfordept.imageset/Allclassesfordept.png)
 
 
 
@@ -34,25 +34,33 @@ ALL REVIEWS FOR CERTAIN COURSE
 
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Allreviewsforclass.imageset/Allreviewsforclass.png)
 
 
-ADD REVIEW SCREEN
+ADD REVIEW SCREEN PART ONE
 
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Addreview1.imageset/Addreview1.png)
+
+
+ADD REVIEW SCREEN PART TWO
+
+
+
+![](UVU%20Courses/Assets.xcassets/Addreview2.imageset/Addreview2.png)
+
 
 
 DATA VALIDATION 
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Datavalidation.imageset/Datavalidation.png)
 
 
 
 AFTER CLICKING SAVE
 
 
-![](UVU%20Courses/Assets.xcassets/Homescreen.imageset/Homescreen.png)
+![](UVU%20Courses/Assets.xcassets/Reviewsaved.imageset/Reviewsaved.png)
 
