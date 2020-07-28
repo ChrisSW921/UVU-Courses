@@ -16,8 +16,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oa5-8u-LBa">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="183" y="433" width="48" height="30"/>
+                                <state key="normal" title="ENTER"/>
                                 <connections>
                                     <segue destination="qTI-QX-Jae" kind="show" id="7O3-Uk-XCx"/>
                                 </connections>
