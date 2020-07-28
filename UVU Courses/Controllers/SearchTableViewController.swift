@@ -75,6 +75,7 @@ extension SearchTableViewController: UISearchBarDelegate{
                 }
             }
             self.tableView.reloadData()
+            print("")
         }
 }
 }
