@@ -20,7 +20,7 @@ TAB TWO, SEARCH FEATURE
 
 
 
-![](UVU%20Courses/Assets.xcassets/SearchBar.imageset/SearchBar.jpg)
+![](UVU%20Courses/Assets.xcassets/SearchBar.imageset/SearchBar.png)
 
 
 ALL COURSES WITHIN SPECIFICED DEPARTMENT
