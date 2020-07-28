@@ -24,6 +24,7 @@
 		FF1A4AE224C0C5420031331A /* CoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */; };
 		FF1A4AE424C212730031331A /* CourseReviewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */; };
 		FF1A4AE624C214170031331A /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1A4AE524C214170031331A /* AddReviewViewController.swift */; };
+		FF6D578224D077A300FDE2EB /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D578124D077A300FDE2EB /* EntranceViewController.swift */; };
 		FFFBE0C624C87E0500B0CB17 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFBE0C524C87E0500B0CB17 /* Review.swift */; };
 		FFFBE0C824C8825100B0CB17 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFFBE0C724C8825000B0CB17 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseReviewsTableViewController.swift; sourceTree = "<group>"; };
 		FF1A4AE524C214170031331A /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		FF6D578124D077A300FDE2EB /* EntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntranceViewController.swift; sourceTree = "<group>"; };
 		FFFBE0C524C87E0500B0CB17 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		FFFBE0C724C8825000B0CB17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -194,6 +196,7 @@
 				FF1A4AE124C0C5420031331A /* CoursesTableViewController.swift */,
 				FF1A4AE324C212730031331A /* CourseReviewsTableViewController.swift */,
 				FF1A4AE524C214170031331A /* AddReviewViewController.swift */,
+				FF6D578124D077A300FDE2EB /* EntranceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				FF1A4AA524BF3B2B0031331A /* SceneDelegate.swift in Sources */,
 				FF1A4AE624C214170031331A /* AddReviewViewController.swift in Sources */,
 				FF1A4AE024C0956D0031331A /* test.swift in Sources */,
+				FF6D578224D077A300FDE2EB /* EntranceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

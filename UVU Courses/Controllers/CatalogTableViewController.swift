@@ -25,7 +25,8 @@ class CatalogTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let ID = UserDefaults.standard.string(forKey: "ID")
-        print(ID)
+        UITabBar.appearance().barTintColor = #colorLiteral(red: 0.1489010155, green: 0.3673349023, blue: 0.2174831033, alpha: 1)
+        self.navigationController?.navigationBar.tintColor = UIColor.white
     }
 
     // MARK: - Table view data source
