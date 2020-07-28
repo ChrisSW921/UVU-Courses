@@ -5,8 +5,7 @@ The app saves the data to google firebase server.
 HOME SCREEN
 
 
-![alt text](https://github.com/ChrisWS921/UVU-Courses/Assets.xcassests/Addreview2.imageset.Addreview2.jpg?raw=true)
-![](UVU Courses/Assets.xcassets/Homescreen.imageset.Home screen.png)
+![](Assets.xcassets/Homescreen.imageset/Homescreen.png)
 
 
 
