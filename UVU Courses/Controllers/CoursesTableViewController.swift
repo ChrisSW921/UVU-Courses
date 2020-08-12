@@ -31,7 +31,7 @@ class CoursesTableViewController: UITableViewController {
         cell.textLabel!.numberOfLines = 0
         cell.contentView.heightAnchor.constraint(greaterThanOrEqualToConstant: 80).isActive = true
         cell.textLabel!.text = "\(keys[indexPath.row]) \(values[indexPath.row])"
-         cell.accessoryType = .disclosureIndicator
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
     
